@@ -1,0 +1,60 @@
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  
+  .card ul li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card ul li.available {
+    color: #4caf50; /* Green color for available features */
+  }
+  
+  .card ul li.unavailable {
+    color: #f44336; /* Red color for unavailable features */
+    text-decoration: line-through;
+  }
+  
+  button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
